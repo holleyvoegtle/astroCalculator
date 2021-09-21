@@ -3,10 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
+    <!-- <link href="/style.css"/> -->
+    
+    <style>
+      
+      body {
+        
+        
+        /* display: flexbox; */
+        /* flex-flow: row nowrap;   */
+        /* justify-content: center; */
+        align-content: center;
+        align-items: center;
+        max-width: max-content;
+        margin: auto;
+        font-family: 'Grechen Fuemen', cursive;
+        background: linear-gradient(to right, #bdc3c7, #2c3e50);
+        
+        
+        
+      }
+      h1 {
+        color: rgb(119, 22, 22);
+        
+        text-align: center;
+        padding-top: 170px;
+        
+      }
+
+      
+      
+      
+    </style>
   </head>
   <body>
-     <!-- Write your markup here  -->
+    <!-- Write your markup here  -->
+    
+    <h1>I'm an AstroWeight Calculator!</h1>  
+      <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+      <select id="planets"></select>
+      <p id="output"></p>
+      <button id="calculate-button">Calculate</button>
+    
+    
 
-    <script src="main.js" charset="utf-8"></script>
+      <script src="main.js" charset="utf-8"></script>
+      
+    
   </body>
 </html>
